@@ -3,3 +3,4 @@ Feature: Common feature
     Scenario: Validate header buttons
         Given visit home page
         When validate main page
+        Then click header button "lapas_karte"
