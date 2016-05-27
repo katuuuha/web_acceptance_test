@@ -1,4 +1,4 @@
-class MainPage < SitePrism:page
+class MainPage < SitePrism:Page
     set_url 'http://www.venta.lv'
     element :logo, '#header > div.l_home'
     element :par_vea, '#menu > ul > li.page_item.page-item-6 > a'
